@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "../styles/addmarks.css"
 
 export default function Addmarks() {
   const [sub1, setSub1] = useState("");
