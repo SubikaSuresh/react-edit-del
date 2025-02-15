@@ -1,4 +1,4 @@
-/* General styles */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
@@ -7,25 +7,13 @@ body {
     display: flex;
     justify-content: center;
   }
-  
-  /* Container */
-  div {
-    max-width: 600px;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-  }
-  
-  /* Heading */
+
   h3 {
     text-align: center;
     color: #333;
     font-size: 1.5rem;
   }
   
-  /* Input fields */
   input {
     width: 100%;
     padding: 10px;
@@ -35,7 +23,6 @@ body {
     font-size: 1rem;
   }
   
-  /* Buttons */
   button {
     width: 100%;
     padding: 10px;
@@ -47,7 +34,6 @@ body {
     transition: background 0.3s;
   }
   
-  /* Submit and Update button */
   button:disabled {
     background: #ccc;
     cursor: not-allowed;
@@ -62,7 +48,6 @@ body {
     background: #0056b3;
   }
   
-  /* Table */
   table {
     width: 100%;
     border-collapse: collapse;
@@ -75,13 +60,11 @@ body {
     text-align: center;
   }
   
-  /* Table Headers */
   th {
     background: #007bff;
     color: white;
   }
   
-  /* Edit and Delete buttons */
   button.edit {
     background: #28a745;
     color: white;
